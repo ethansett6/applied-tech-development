@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Applied Tech Development - AI & Technology Hub</title>
+    <!-- Add Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <!-- Add meta tags for SEO and social sharing -->
+    <meta name="description" content="Applied Tech Development - Your hub for AI solutions, tech news, and digital innovation">
+    <meta name="keywords" content="AI, technology, development, machine learning, digital solutions">
+    <meta property="og:title" content="Applied Tech Development">
+    <meta property="og:description" content="Your hub for AI solutions, tech news, and digital innovation">
+    <meta property="og:type" content="website">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav>
+        <div class="logo">
+            <h1>Applied Tech Development</h1>
+        </div>
+        <ul class="nav-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#ai-news">AI News</a></li>
+            <li><a href="#knowledge-hub">Knowledge Hub</a></li>
+            <li><a href="#founders">Founders</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- Hero Section -->
+    <header id="home">
+        <div class="animated-bg"></div>
+        <div class="hero-content">
+            <h1>Welcome to Applied Tech Development</h1>
+            <p>Exploring the Future of Technology & Artificial Intelligence</p>
+            <a href="#services" class="cta-button">
+                Explore Our Services
+                <i class="fas fa-arrow-right" style="margin-left: 8px;"></i>
+            </a>
+        </div>
+    </header>
+
+    <!-- Services Section -->
+    <section id="services">
+        <h2>Our Services</h2>
+        <div class="services-grid">
+            <div class="service-card">
+                <i class="fas fa-robot"></i>
+                <h3>AI Solutions</h3>
+                <p>Custom AI implementation for your business needs</p>
+                <button class="chat-trigger" onclick="openChat()">
+                    <i class="fas fa-comments"></i>
+                    Try Our AI Chat
+                </button>
+            </div>
+            <div class="service-card">
+                <i class="fas fa-code"></i>
+                <h3>Development</h3>
+                <p>Web and application development services</p>
+                <div class="course-section">
+                    <h4>Learn HTML Basics</h4>
+                    <div class="lesson-list">
+                        <a href="#" class="lesson-link" onclick="showLesson('html-basics')">
+                            <i class="fas fa-book-open"></i>
+                            Lesson 1: HTML Fundamentals
+                        </a>
+                        <a href="#" class="lesson-link" onclick="showLesson('html-text')">
+                            <i class="fas fa-font"></i>
+                            Lesson 2: Text Elements
+                        </a>
+                        <a href="#" class="lesson-link" onclick="showLesson('html-links')">
+                            <i class="fas fa-link"></i>
+                            Lesson 3: Links & Navigation
+                        </a>
+                        <a href="#" class="lesson-link" onclick="showLesson('html-images')">
+                            <i class="fas fa-image"></i>
+                            Lesson 4: Images & Media
+                        </a>
+                        <a href="#" class="lesson-link" onclick="showLesson('html-lists')">
+                            <i class="fas fa-list"></i>
+                            Lesson 5: Lists & Navigation
+                        </a>
+                        <a href="#" class="lesson-link" onclick="showLesson('html-tables')">
+                            <i class="fas fa-table"></i>
+                            Lesson 6: Tables
+                        </a>
+                        <a href="#" class="lesson-link" onclick="showLesson('html-forms-basic')">
+                            <i class="fas fa-wpforms"></i>
+                            Lesson 7: Basic Forms
+                        </a>
+                        <a href="#" class="lesson-link" onclick="showLesson('html-forms-advanced')">
+                            <i class="fas fa-clipboard-list"></i>
+                            Lesson 8: Advanced Forms
+                        </a>
+                        <a href="#" class="lesson-link" onclick="showLesson('html-semantic')">
+                            <i class="fas fa-project-diagram"></i>
+                            Lesson 9: Semantic HTML
+                        </a>
+                        <a href="#" class="lesson-link" onclick="showLesson('html-containers')">
+                            <i class="fas fa-boxes"></i>
+                            Lesson 10: Containers & Layout
+                        </a>
+                        <a href="#" class="lesson-link" onclick="showLesson('html-multimedia')">
+                            <i class="fas fa-film"></i>
+                            Lesson 11: Multimedia
+                        </a>
+                        <a href="#" class="lesson-link" onclick="showLesson('html-meta')">
+                            <i class="fas fa-globe"></i>
+                            Lesson 12: Meta Tags & SEO
+                        </a>
+                        <a href="#" class="lesson-link" onclick="showLesson('html-accessibility')">
+                            <i class="fas fa-universal-access"></i>
+                            Lesson 13: Accessibility
+                        </a>
+                        <a href="#" class="lesson-link" onclick="showLesson('html-responsive')">
+                            <i class="fas fa-mobile-alt"></i>
+                            Lesson 14: Responsive Design
+                        </a>
+                        <a href="#" class="lesson-link" onclick="showLesson('html-best-practices')">
+                            <i class="fas fa-check-circle"></i>
+                            Lesson 15: Best Practices
+                        </a>
+                        <a href="#" class="lesson-link" onclick="showLesson('html-validation')">
+                            <i class="fas fa-code"></i>
+                            Lesson 16: Validation & Testing
+                        </a>
+                        <a href="#" class="lesson-link" onclick="showLesson('html-integration')">
+                            <i class="fas fa-puzzle-piece"></i>
+                            Lesson 17: CSS Integration
+                        </a>
+                        <a href="#" class="lesson-link" onclick="showLesson('html-javascript')">
+                            <i class="fab fa-js"></i>
+                            Lesson 18: JavaScript Integration
+                        </a>
+                        <a href="#" class="lesson-link" onclick="showLesson('html-projects')">
+                            <i class="fas fa-laptop-code"></i>
+                            Lesson 19: Practice Projects
+                        </a>
+                        <a href="#" class="lesson-link" onclick="showLesson('html-advanced')">
+                            <i class="fas fa-graduation-cap"></i>
+                            Lesson 20: Advanced Topics
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="service-card">
+                <i class="fas fa-brain"></i>
+                <h3>Consulting</h3>
+                <p>Technical consulting and strategy planning</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- AI News Section -->
+    <section id="ai-news">
+        <h2>Latest AI News</h2>
+        <div class="language-toggle">
+            <button class="lang-btn active" data-lang="en">English</button>
+            <button class="lang-btn" data-lang="mm">မြန်မာ</button>
+        </div>
+        <div class="news-grid">
+            <div class="news-card" data-lang="en">
+                <h3>GPT-4 Turbo Released</h3>
+                <p>OpenAI launches GPT-4 Turbo with enhanced capabilities, longer context windows, and improved reasoning abilities.</p>
+                <span class="date">2024-03-20</span>
+                <a href="https://openai.com/blog" class="source-link" target="_blank">Source: OpenAI Blog</a>
+            </div>
+            <div class="news-card" data-lang="mm">
+                <h3>GPT-4 Turbo ထွက်ရှိ</h3>
+                <p>OpenAI မှ GPT-4 Turbo ကို စွမ်းဆောင်ရည်မြှင့်တင်ထားသော context windows များနှင့် ပိုမိုကောင်းမွန်သော ဆင်ခြင်တုံတရားများဖြင့် ထုတ်လုပ်လိုက်ပါပြီ။</p>
+                <span class="date">၂၀၂၄-မတ်-၂၀</span>
+                <a href="https://openai.com/blog" class="source-link" target="_blank">ရင်းမြစ်: OpenAI Blog</a>
+            </div>
+
+            <div class="news-card" data-lang="en">
+                <h3>AI in Healthcare Breakthrough</h3>
+                <p>New AI models show 95% accuracy in early disease detection, potentially revolutionizing preventive healthcare.</p>
+                <span class="date">2024-03-19</span>
+                <a href="https://www.who.int/news" class="source-link" target="_blank">Source: WHO News</a>
+            </div>
+            <div class="news-card" data-lang="mm">
+                <h3>ကျန်းမာရေးနယ်ပယ်တွင် AI တိုးတက်မှု</h3>
+                <p>AI နည်းပညာအသစ်များသည် ရောဂါစောစီးစွာရှာဖွေရာတွင် 95% မှန်ကန်မှုရှိပြီး ကာကွယ်ရေးဆိုင်ရာ ကျန်းမာရေးစောင့်ရှောက်မှုကို တော်လှန်ပြောင်းလဲစေနိုင်ပါသည်။</p>
+                <span class="date">၂၀၂၄-မတ်-၁၉</span>
+                <a href="https://www.who.int/news" class="source-link" target="_blank">ရင်းမြစ်: WHO သတင်း</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Knowledge Hub -->
+    <section id="knowledge-hub">
+        <h2>Knowledge Hub</h2>
+        <div class="language-toggle">
+            <button class="lang-btn active" data-lang="en">English</button>
+            <button class="lang-btn" data-lang="mm">မြန်မာ</button>
+        </div>
+        <div class="knowledge-grid">
+            <div class="knowledge-card" data-lang="en">
+                <h3>Digital Rights and Democracy</h3>
+                <p>Understanding the impact of technology on democratic processes and digital rights in the modern era.</p>
+                <ul class="key-points">
+                    <li>Digital privacy and surveillance</li>
+                    <li>Online freedom of expression</li>
+                    <li>Cybersecurity in democracy</li>
+                </ul>
+                <a href="https://www.eff.org/" class="source-link" target="_blank">Learn More: Electronic Frontier Foundation</a>
+            </div>
+            <div class="knowledge-card" data-lang="mm">
+                <h3>ဒီဂျစ်တယ်အခွင့်အရေးနှင့် ဒီမိုကရေစီ</h3>
+                <p>ခေတ်သစ်တွင် နည်းပညာ၏ ဒီမိုကရေစီဖြစ်စဉ်များနှင့် ဒီဂျစ်တယ်အခွင့်အရေးများအပေါ် သက်ရောက်မှုကို နားလည်ခြင်း။</p>
+                <ul class="key-points">
+                    <li>ဒီဂျစ်တယ်သီးသန့်လွတ်လပ်ခွင့်နှင့် စောင့်ကြည့်ခြင်း</li>
+                    <li>အွန်လိုင်းထုတ်ဖော်ပြောဆိုခွင့်</li>
+                    <li>ဒီမိုကရေစီတွင် ဆိုက်ဘာလုံခြုံရေး</li>
+                </ul>
+                <a href="https://www.eff.org/" class="source-link" target="_blank">ပိုမိုလေ့လာရန်: EFF</a>
+            </div>
+
+            <div class="knowledge-card" data-lang="en">
+                <h3>AI Ethics and Governance</h3>
+                <p>Exploring the ethical implications of AI development and the importance of responsible innovation.</p>
+                <ul class="key-points">
+                    <li>AI bias and fairness</li>
+                    <li>Transparency in AI systems</li>
+                    <li>Ethical AI development</li>
+                </ul>
+                <a href="https://www.unesco.org/en/artificial-intelligence" class="source-link" target="_blank">Learn More: UNESCO AI Ethics</a>
+            </div>
+            <div class="knowledge-card" data-lang="mm">
+                <h3>AI ကျင့်ဝတ်နှင့် စီမံအုပ်ချုပ်မှု</h3>
+                <p>AI ဖွံ့ဖြိုးတိုးတက်မှု၏ ကျင့်ဝတ်ဆိုင်ရာ သက်ရောက်မှုများနှင့် တာဝန်သိသော ဆန်းသစ်တီထွင်မှု၏ အရေးပါပုံကို လေ့လာခြင်း။</p>
+                <ul class="key-points">
+                    <li>AI ဘက်လိုက်မှုနှင့် တရားမျှတမှု</li>
+                    <li>AI စနစ်များ၏ ပွင့်လင်းမြင်သာမှု</li>
+                    <li>ကျင့်ဝတ်နှင့်ညီသော AI ဖွံ့ဖြိုးတိုးတက်မှု</li>
+                </ul>
+                <a href="https://www.unesco.org/en/artificial-intelligence" class="source-link" target="_blank">ပိုမိုလေ့လာရန်: UNESCO AI Ethics</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Founders Section -->
+    <section id="founders">
+        <h2>Meet Our Founders</h2>
+        <div class="founders-info">
+            <div class="founder">
+                <div class="founder-content">
+                    <h3>Robert Jasen</h3>
+                    <p class="founder-title">Co-Founder & CEO</p>
+                    <p class="founder-details">Young Tech Prodigy • Under 18</p>
+                    <p class="founder-bio">Leading ATD's innovation since 2023. Specializing in AI development and system architecture.</p>
+                    <div class="founder-contact">
+                        <a href="https://t.me/ROBERT_JASEN" class="telegram-link" target="_blank">
+                            <i class="fab fa-telegram"></i>
+                            <span>Contact on Telegram</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="founder">
+                <div class="founder-content">
+                    <h3>Ethan</h3>
+                    <p class="founder-title">Co-Founder & CTO</p>
+                    <p class="founder-details">Young Programming Virtuoso • Under 18</p>
+                    <p class="founder-bio">Driving ATD's technical excellence with expertise in full-stack development and AI integration.</p>
+                    <div class="founder-contact">
+                        <a href="https://t.me/KOHPONEE" class="telegram-link" target="_blank">
+                            <i class="fab fa-telegram"></i>
+                            <span>Contact on Telegram</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <h2>Get in Touch</h2>
+        <div class="contact-container">
+            <div class="website-links">
+                <h3>Quick Access Links</h3>
+                <div class="links-container">
+                    <div class="qr-code">
+                        <img src="https://api.qrserver.com/v1/create-qr-code/?size=200x200&data=https://atd.robertjasen.com" alt="Website QR Code">
+                        <p>Scan to visit</p>
+                    </div>
+                    <div class="direct-links">
+                        <a href="https://atd.robertjasen.com" class="main-link" target="_blank">
+                            <i class="fas fa-globe"></i>
+                            atd.robertjasen.com
+                        </a>
+                        <div class="social-links">
+                            <a href="https://t.me/ROBERT_JASEN" class="social-link telegram" target="_blank">
+                                <i class="fab fa-telegram"></i>
+                                Telegram
+                            </a>
+                            <a href="https://github.com/robertjasen" class="social-link github" target="_blank">
+                                <i class="fab fa-github"></i>
+                                GitHub
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <form id="contact-form">
+                <input type="text" placeholder="Your Name" required>
+                <input type="email" placeholder="Your Email" required>
+                <textarea placeholder="Your Message" required></textarea>
+                <button type="submit">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Applied Tech Development. All rights reserved.</p>
+    </footer>
+
+    <div class="chat-container" id="chatInterface">
+        <div class="chat-header">
+            <h3>ATD AI Assistant</h3>
+            <button class="close-chat" onclick="closeChat()">
+                <i class="fas fa-times"></i>
+            </button>
+        </div>
+        <div class="chat-messages" id="chatMessages">
+            <div class="message bot">
+                Hello! I'm ATD's AI assistant. How can I help you today?
+            </div>
+        </div>
+        <div class="chat-input">
+            <input type="text" id="userInput" placeholder="Type your message..." onkeypress="handleKeyPress(event)">
+            <button onclick="sendMessage()">
+                <i class="fas fa-paper-plane"></i>
+            </button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html> 
